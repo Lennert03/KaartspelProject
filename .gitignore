@@ -1,0 +1,79 @@
+# =========================================================================
+# Visual Studio & .NET Git Ignore
+# =========================================================================
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017/2019/2022 cache and user settings
+.vs/
+.vs*
+Generated\ Files/
+Ankh.Svn.user
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Roslyn cache directories
+*.osx
+
+# SQLite databases (local development)
+backend/ScoreBridge.Api/ScoreBridge.db
+backend/ScoreBridge.Api/ScoreBridge.db-shm
+backend/ScoreBridge.Api/ScoreBridge.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# =========================================================================
+# Node.js & Angular Git Ignore
+# =========================================================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+# Angular cache and CLI files
+.angular/
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.WebStorm*
+.DS_Store
