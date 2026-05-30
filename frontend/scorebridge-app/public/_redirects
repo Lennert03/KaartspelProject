@@ -1,0 +1,5 @@
+# Proxy API verzoeken naar Render backend
+/api/* https://kaartspelproject.onrender.com/api/:splat 200
+
+# Stuur alle andere routes door naar index.html voor Angular routing (voorkomt 404 bij vernieuwen)
+/* /index.html 200
